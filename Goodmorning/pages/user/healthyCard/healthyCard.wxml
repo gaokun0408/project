@@ -1,0 +1,7 @@
+<!--pages/i/healthyCard/healthyCard.wxml-->
+<view class='list' wx:for='{{list}}' wx:key='id'>
+  <image class="img" src="{{item.img}}"></image>
+  <text>{{item.name}}</text>
+  <text class='l-right'>{{item.value}}</text>
+</view>
+<view class='tjjrBtn'>体检记录</view>

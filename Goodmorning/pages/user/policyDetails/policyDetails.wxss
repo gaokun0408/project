@@ -1,0 +1,67 @@
+/* pages/i/policyDetails/policyDetails.wxss */
+.clearfix:after{ 
+  content:"";
+  display:block; 
+  height:0; clear:both; 
+  visibility:hidden;
+  }
+.list{
+  margin: 0 0 70rpx 60rpx;
+}
+.list image{
+  width: 32rpx;
+  height: 32rpx;
+  float: left;
+  margin: 4rpx 20rpx 0 0;
+}
+.list view{
+  width: 110px;
+  height: auto;
+  float: left;
+}
+.list text{
+  width: 180px;
+  height: auto;
+  float: right;
+  margin-right: 40rpx;
+  text-align: right;
+}
+.lBox{
+  margin-top: 60rpx;
+}
+.lBox2{
+  margin: 100rpx 0 100rpx;
+}
+.lBox3{
+  margin: 0 60rpx 60rpx 60rpx;
+}
+.lBox3 image{
+  width: 32rpx;
+  height: 32rpx;
+  float: left;
+  margin: 4rpx 20rpx 0 0;
+}
+.query{
+  width: 150px;
+  height: auto;
+  float: left;
+}
+.queryinfo{
+  width: 95%;
+  height: 80rpx;
+  color: #888888;
+  font-size: 28rpx;
+  float: left;
+  margin: 30rpx 0 0 52rpx;
+}
+
+.xbBtn{
+  width: 650rpx;
+  height: 80rpx;
+  color: #fff;
+  background: #d25b4a;
+  line-height: 80rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin: 0 auto;
+}

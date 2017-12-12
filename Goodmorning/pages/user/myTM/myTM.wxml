@@ -1,0 +1,43 @@
+<!--pages/i/myTM/myTM.wxml-->
+<view class='wrap'>
+  <view class='w-top'>
+    <image class="idcard" src="../../../images/idcard.png"></image>
+    <view class="sf">我的身份：{{sf}}</view>
+    <view class="date" bindtap='goShow'>{{sdate}}至{{ldate}}</view>
+    <image class="down" src="../../../images/down.png"></image>
+  </view>
+
+  <view class="datebox" wx:if='{{show}}'>
+    <view  class="date1" wx:for='{{dateList}}' wx:key='id' data-ks='{{item.ksdate}}' data-js='{{item.jsdate}}'>
+      <view>{{item.ksdate}}至{{item.jsdate}}</view>
+    </view>
+  </view>
+
+
+  <view class='w-xz'>
+    <view class='w-x-box'>
+      <view class="num">{{xzcy}}</view>
+      <view>新增成员</view>
+    </view>
+    <view class='w-x-box1'>
+      <view class="num">{{xzhy}}</view>
+      <view>新增会员</view>
+    </view>
+  </view>
+</view>
+
+
+<view>
+  <view class='line'></view>
+  <view class='list' wx:for='{{list}}' wx:key='id' bindtap='listTap'>
+    <text class='l-name'>{{item.name}}</text>
+    <view class='l-value'>
+      <text>{{item.value}}人</text>
+      <image src="{{jtimg}}"></image>
+    </view>
+  </view>
+  <view class='line'></view>
+  <view class='lTj'>*无法管理会员级别超过自己的团队</view>
+</view>
+
+<view class='wdsy'>我的收益=直接推广补贴（100元/会员）</view>

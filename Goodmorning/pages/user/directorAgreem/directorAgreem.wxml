@@ -1,0 +1,6 @@
+<!--pages/i/directorAgreem/directorAgreem.wxml-->
+<view class='xynrBox'>{{xynr}}</view>
+<view class='btnBox'>
+  <view bindtap='fhTap'>拒绝，返回上一步</view>
+  <view bindtap='tyTap'>同意，去申请</view>
+</view>

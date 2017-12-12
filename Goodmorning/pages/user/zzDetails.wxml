@@ -1,0 +1,14 @@
+<!--pages/user/zzDetails.wxml-->
+<view class='line'></view>
+<view class='w-box1'>
+  <text>{{name}}</text>
+  <text>￥{{mess}}</text>
+</view>
+
+<view class='w-box' wx:for='{{list}}' wx:key='id'>
+  <text>{{item.name}}</text>
+  <text>{{item.mess}}</text>
+</view>
+<view class='line'></view>
+
+

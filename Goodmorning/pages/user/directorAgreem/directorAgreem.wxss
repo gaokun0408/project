@@ -1,0 +1,24 @@
+/* pages/i/directorAgreem/directorAgreem.wxss */
+.xynrBox{
+  width: 86%;
+  height: 1040rpx;
+  margin: 30rpx auto 0;
+  padding: 5rpx 10rpx;
+  border: #bbb solid 1px;
+  color: #888888;
+  text-align: justify;
+  overflow: auto;
+}
+.btnBox{
+  padding: 30rpx 0 30rpx 10rpx; 
+}
+.btnBox view{
+  width: 260rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: #bbb solid 1px;
+  border-radius: 10rpx;
+  margin-left: 70rpx;
+  float: left;
+}

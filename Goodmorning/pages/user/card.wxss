@@ -1,0 +1,223 @@
+/* pages/user/card.wxss */
+.clearfix:after{ 
+  content:"";
+  display:block; 
+  height:0; clear:both; 
+  visibility:hidden;
+}
+
+page{
+  position: relative;
+}
+
+.headbox {
+  width: 100%;
+  height: 120rpx;
+  overflow: hidden;
+}
+
+.headbox .card {
+  float: left;
+  line-height: 120rpx;
+  margin-left: 40rpx;
+  
+}
+
+.headbox .all {
+  float: right;
+  line-height: 60rpx;
+  margin-right: 40rpx;
+  width:150rpx;height: 60rpx;
+  border:1px solid #bbb;
+  border-radius: 10rpx;
+  text-align: center;
+  color: #bbb;
+  margin-top: 20rpx;
+}
+
+.lithidden{
+  width: 94%;
+  height: 416px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.litbox {
+  height: 160rpx;
+  border: 1px solid #bbb;
+  overflow: hidden;
+  margin-bottom: 33rpx;
+  border-radius: 5px;
+  padding: 0 30rpx 0;
+  position: relative;
+   
+}
+
+.buyper{
+  width: 100%;
+  height: auto;
+  padding-top:20rpx; 
+}
+
+.name{
+  width: 100px;
+  height: auto;
+}
+
+.litbox .img{
+  display: block;
+  float: right;
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 42rpx;
+
+}
+
+.activation_time,.buy_time{
+  width: 47%;
+  font-size: 20rpx;
+  margin-top:20rpx;
+}
+
+.activation_time{
+  float: left;
+}
+
+.activation_icon{
+  width: 120rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 0;
+  right: 30rpx;
+}
+
+.buy_time{
+  text-align: right;
+  float: right;
+}
+
+
+.litlist{
+  width: 170rpx;
+  height:150rpx;
+  border:1px solid #a7d9f9;
+  border-radius: 6rpx;
+  position:absolute;
+  right: 30rpx;
+  top:85rpx;
+  z-index: 2;
+  background-color: #fff;
+  text-align: center;
+}
+
+.litlist text{
+  display: block;
+ margin: 4rpx 4rpx;
+}
+
+.active{
+  color:#fff;
+  background-color: blue;
+}
+
+.buybox{
+  width: 94%;
+  height: 125rpx;
+  margin:0 auto 30rpx;
+  overflow: hidden;
+}
+
+.buy_pic{
+  width: 117rpx;
+  height: 123rpx;
+  float: left;
+}
+
+.buy_info{
+  width: 200rpx;
+  height: 120px;
+  float: left;
+  margin: 5rpx 100rpx 0 40rpx;
+}
+
+.buy_name,buy_money{
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.buy_money{
+  color: #d25b4a;
+}
+
+/*主容器*/  
+.buy_num {  
+    width: 100px;  
+    height: 26px;   
+    float: right;
+    margin-top: 40rpx; 
+}  
+  
+/*加号和减号*/  
+.buy_num text {  
+    width: 20px;
+    height: 20px;
+    font-size: 14px;  
+    line-height: 20px; 
+    border: 1px solid #d25b4a;  
+    border-radius: 50%; 
+    text-align: center;  
+    float: left;  
+}  
+  
+/*数值*/  
+.buy_num input {  
+    width: 40px;  
+    height: 20px;  
+    font-size: 12px; 
+    line-height: 20px; 
+    text-align: center;  
+    float: left;
+    margin: 0 auto;
+}  
+  
+/*普通样式*/  
+.buy_num .normal{  
+    color: #d25b4a;  
+}  
+  
+/*禁用样式*/  
+.buy_num .disabled{  
+    color: #ccc;  
+    border: 1px solid #ccc;
+} 
+
+.paybox{
+  width: 100%;
+  height: 100rpx;
+}
+
+.paytotal{
+  width: 45px;
+  height: 100rpx;
+  line-height: 100rpx;
+  float: left;
+  margin-left: 24rpx;
+}
+
+.paynumber{
+  width: 150px;
+  height: 100rpx;
+  color: #d25b4a;
+  line-height: 100rpx;
+  float: left;
+}
+
+.paybtn{
+  width: 110px;
+  height: 100rpx;
+  color: #fff;
+  text-align: center;
+  background: #d25b4a;
+  line-height: 100rpx;
+  float: right;
+}

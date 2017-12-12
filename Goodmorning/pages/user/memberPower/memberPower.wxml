@@ -1,0 +1,2 @@
+<!--pages/i/memberPower/memberPower.wxml-->
+<view class='con'>{{con}}</view>

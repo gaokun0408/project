@@ -1,0 +1,29 @@
+<!--pages/i/policyDetails/policyDetails.wxml-->
+<view class='lBox'>
+  <view class='list clearfix' wx:for='{{list}}' wx:key='id'>
+    <image src='{{item.icon}}'></image>
+    <view>{{item.name}}</view>
+    <text>{{item.value}}</text>
+  </view>
+</view>
+
+<view class='lBox2'>
+  <view class='list clearfix'>
+    <image src='../../../images/policy-icon6.png'></image>
+    <view>担保人姓名</view>
+    <text>{{name}}</text>
+  </view>
+  <view class='list clearfix'>
+    <image src='../../../images/policy-icon7.png'></image>
+    <view>身份证号</view>
+    <text>{{sfzh}}</text>
+  </view>
+</view>
+
+<view class='lBox3 clearfix'>
+  <image src='../../../images/policy-icon8.png'></image>
+  <view class='query'>保单实时查询</view>
+  <view class='queryinfo'>{{bdcx}}</view>
+</view>
+
+<view class='xbBtn'>续保</view>

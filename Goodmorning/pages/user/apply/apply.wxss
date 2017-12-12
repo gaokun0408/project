@@ -1,0 +1,127 @@
+/* pages/i/apply/apply.wxss */
+page{
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.wrap{
+  margin: 110rpx 0 0 50rpx;
+}
+.w-box{
+  width: 640rpx;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.w-box input{
+  width: 400rpx;
+  height: 40rpx;
+  padding: 0 10rpx;
+  float: right;
+  border: #bbb solid 1px;
+}
+
+.sqyyBox{
+  width:92%;
+  margin: 10rpx auto 0;
+}
+.sqyyBox textarea{
+  width: 94%;
+  height: 300rpx;
+  border: #bbb solid 1px;
+  margin: 30rpx auto;
+  text-align: justify;
+  padding: 20rpx 20rpx;
+box-shadow: 0px 0px 5px #888888;
+}
+.sb-ts{
+  text-align: right;
+  color: #e64340;
+}
+.s2b-ts{
+  overflow: hidden;
+  color: #e64340;
+}
+.s2b-ts view{
+  float: right;
+  width: 20rpx;
+  height: 20rpx;
+  border: #e64340 solid 1px;
+  margin: 10rpx 10rpx 0 0;
+}
+.s2b-ts text{
+  float: right;
+}
+.tjsq{
+  width: 92%;
+  height: 90rpx;
+  line-height: 90rpx;
+  background: #d25b4a;
+  border-radius: 10rpx;
+  margin: 30rpx auto;
+  color: #fff;
+}
+
+.tjsq::after{
+  content: none;
+}
+
+.line{
+  width: 100%;
+  height: 14rpx;
+  background-color: #f8f8f8;
+}
+
+.list{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 0 auto;
+  border-bottom: #f5f5f5 solid 1px;
+  overflow: hidden;
+  background-color: #fff;
+  /* margin-top: 20rpx; */
+}
+
+.list1{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 0 auto;
+  border-bottom: #f5f5f5 solid 1px;
+  overflow: hidden;
+  background-color: #fff;
+  /* margin-top: 20rpx; */
+}
+
+
+.list:first-child{
+   margin-top: 20rpx; 
+}
+
+.l-right{
+  float: right;
+  line-height: 100rpx;
+  margin-right: 30rpx;
+}
+.tjjrBtn{
+  width: 690rpx;
+  height: 90rpx;
+  border: #bbb solid 1px;
+  line-height: 90rpx;
+  text-align: center;
+  margin: 30rpx auto;
+  background-color: #d25b4a;
+  color:#fff;
+  margin-top: 24rpx;
+  border-radius: 10rpx;
+  letter-spacing: 2rpx;
+}
+
+.img{
+  display: inline-block;
+  float:left;
+  width:40rpx;height: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 28rpx;
+  margin-top:30rpx; 
+}

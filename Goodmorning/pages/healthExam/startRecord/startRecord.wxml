@@ -1,0 +1,15 @@
+<!--pages/healthExam/startRecord/startRecord.wxml-->
+<!-- 灰色分隔线 -->
+  <view class="line"></view>
+
+  <!-- 检测记录 -->
+  <view class='list' wx:for='{{jcList}}' wx:key='id'>
+    <image class="img" src='../../../images/jcjl1.png'></image>
+    <text class='l-sj'>{{item.sj}}</text>
+    <view class='ztBox'>
+      <text style='color:{{item.jczt=="检测中"?"#e64340":""}}'>{{item.jczt}}</text>
+      <image src='../../../images/arrow.png'></image>
+    </view>
+  </view>
+
+<view class='alckgd'>上拉查看更多</view>

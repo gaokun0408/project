@@ -1,0 +1,19 @@
+<!--pages/user/btDetails.wxml-->
+<view class="messbox">
+  <view class="titbox" wx:for='{{btList}}' wx:key='id'>
+    <view class="num">{{item.bt}}</view>
+  </view>
+</view>
+
+<view class="xqbox" wx:for='{{xqList}}' wx:key='id'>
+  <image src="{{item.img}}" class="img"></image>
+  <view class="txtbox">
+    <text class="name">{{item.name}}</text>
+    <text class="money">{{item.money}}</text>
+    <view style='margin-top:10rpx;'>
+      <text class="date">{{item.date}}</text>
+      <text class="time">{{item.time}}</text>
+      <text class="txt">{{item.txt}}</text>
+    </view>
+  </view>
+</view>

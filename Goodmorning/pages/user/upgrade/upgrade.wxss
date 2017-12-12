@@ -1,0 +1,164 @@
+/* pages/i/upgrade/upgrade.wxss */
+page{
+  background-color: #fff;
+}
+.wrap{
+  height: 340rpx;
+  border-bottom: #bbb solid 1px;
+}
+.w-top{
+  height: 120rpx;
+  overflow: hidden;
+}
+.w-top image{
+  width: 60rpx;
+  height: 60rpx;
+  border: #bbb solid 1px;
+  border-radius: 50%;
+  float: left;
+  margin: 20rpx 10rpx 0 20rpx;
+}
+.w-t-box{
+  float: left;
+  margin-top: 15rpx;
+}
+.t-b-kh{
+  font-size: 24rpx;
+}
+.w-t-box2{
+  float: right;
+  margin: 10rpx 20rpx 0 0;
+}
+.t-b2-xf{
+  color: #e64340;
+  margin-left: 10rpx;
+}
+.w-b-gyhy{
+  font-size: 60rpx;
+  color: #e6757c;
+  text-align: center;
+  margin-bottom: 35rpx;
+}
+.w-b-sq{
+  text-align: center;
+  color: #e64340;
+  margin-top: 10rpx;
+}
+
+.wrap2{
+  margin-top: 40rpx;
+  overflow: hidden;
+  text-align: center;
+}
+.w2-list{
+  width: 33%;
+  float: left;
+  margin-top: 60rpx;
+  text-align: center;
+  color: #555555;
+}
+.w2-list image{
+  display: block;
+  width: 60rpx;
+  height: 56rpx;
+  background: red;
+  margin: 0 auto 30rpx;
+}
+
+
+/* 个人信息框 */
+.userbox{
+  width: 100%;
+  height: 176rpx;
+  overflow: hidden;
+  border-bottom:1px solid #bbbbbb; 
+  background-color: #fff;
+}
+
+.userimg{
+  width: 130rpx;
+  height: 128rpx;
+  border-radius: 10rpx;
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 22rpx;
+  margin-right: 24rpx;
+}
+
+.userinfo {
+  float: left;
+  font-size: 14px;
+  color: #100f10;
+}
+
+.name{
+  margin-top: 16rpx;
+  margin-bottom: 6rpx;
+}
+
+.enterimg{
+  width: 24rpx;
+  height: 34rpx;
+  float: right;
+  margin-top: 62rpx;
+  margin-right: 48rpx;
+}
+
+
+/*内容*/
+.user_warp {
+  width: 100%;
+  height: 80rpx;
+  background-color: #fff;
+  border-top: solid #dedede 1px;
+  margin-top: 10px;
+}
+
+.warp_sub {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: solid #dedede 1px;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line{
+    width: 100%;
+  height: 12rpx;
+  background-color: #efeff4;
+}
+
+.hybox {
+  width: 100%;
+  height: 84rpx;
+  line-height: 84rpx;
+  overflow: hidden;
+}
+
+.star{
+  float: left;
+  width: 44rpx;
+  height: 48rpx;
+  margin:16rpx 34rpx 0 40rpx;
+}
+
+.hybox view{
+  display: inline-block;
+  line-height: 84rpx;
+  color: #d25b4a;
+}
+
+.hybox .hy{
+  margin-right: 184rpx;
+} 
+
+.jt{
+  float: right;
+  width: 20rpx;
+  height: 38rpx;
+  margin-top: 24rpx;
+  margin-right: 40rpx;
+}

@@ -1,0 +1,5 @@
+/**app.wxss**/
+page,button{
+   font-size:30rpx;
+   background: #f8f8f8;
+}

@@ -1,0 +1,12 @@
+<!--pages/i/Insurance/Insurance.wxml-->
+<view class='list' wx:for='{{list}}' wx:key='id'>
+  <view class='saveinfo clearfix'>
+    <view>{{item.bx}}</view>
+    <text>{{item.bxgs}}</text>
+  </view>
+  <view class='l-imgBox'>
+    <image class='l-img' src='{{item.src}}'></image>
+    <image class='l-spr' wx:if='{{item.spr}}' src='../../../images/guarantee.png'></image>
+  </view>
+  <text class='save_price'>{{item.jg}}</text>
+</view>

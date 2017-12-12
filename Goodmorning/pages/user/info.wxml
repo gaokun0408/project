@@ -1,0 +1,12 @@
+<!--pages/user/info.wxml-->
+<view class="infobox">
+  <view wx:for='{{infoList}}' wx:key='id'  class="litinfo">
+    <image class="img" src="{{item.img}}"></image>
+    <view class="info">{{item.info}}</view>
+    <input class="infoput"></input>
+    <view class="status">{{item.status}}</view>
+    <image class="enter" src="{{enterimg}}"></image>
+  </view>
+</view>
+
+<button class="infonbtn}">{{infonbtn}}</button>

@@ -1,0 +1,51 @@
+/* pages/i/activaComplete/activaComplete.wxss */
+.khsjBox{
+  margin: 100rpx 0 0 70rpx;
+}
+.hykh{
+  margin-bottom: 35rpx;
+}
+
+.list{
+  width: 660rpx;
+  height: 65rpx;
+  overflow: hidden;
+  margin: 60rpx 0 0 70rpx;
+}
+.l-name{
+  width: 140rpx;
+  height: 65rpx;
+  line-height: 65rpx;
+  float: left;
+}
+.list input{
+  width: 350rpx;
+  height: 60rpx;
+  float: left;
+  border: #bbb solid 1px;
+}
+.l-xg{
+  float: left;
+  color: #e64340;
+  margin: 30rpx 0 0 10rpx;
+}
+
+.smTxt{
+  width: 600rpx;
+  height: 130rpx;
+  margin: 60rpx auto 0;
+  text-align: justify;
+  color: #888888;
+}
+
+.bcBtn{
+  width: 160rpx;
+  height: 60rpx;
+  background: #fff;
+  line-height: 60rpx;
+  border: #bbb solid 1px;
+  margin: 180rpx auto 60rpx;
+}
+.bcBtn::after{
+  content: none;
+}

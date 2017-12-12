@@ -1,0 +1,86 @@
+/* pages/healthExam/startCheck/startCheck.wxss */
+/* 检测方法 */
+.jcffBox{
+  background: #fff;
+  padding: 40rpx 0 45rpx 45rpx;
+  margin-bottom: 20rpx;
+}
+.jb-ttle{
+  margin-bottom: 30rpx;
+}
+.jb-ttle image{
+  width: 52rpx;
+  height: 45rpx;
+  float: left;
+  margin-right: 15rpx;
+}
+.jb-con{
+  width: 640rpx;
+  height: 230rpx;
+  padding: 15rpx;
+  text-align: justify;
+  box-shadow: 0 0 50rpx #f3f3f3;
+  color: #929292;
+}
+/* 选择自测结果 */
+.zl-con{
+  width: 640rpx;
+  height: 315rpx;
+  padding: 15rpx;
+  margin-top: 32rpx;
+  box-shadow: 0 0 50rpx #f3f3f3;
+}
+.zl-list{
+  margin-bottom: 20rpx;
+}
+.zl-l-box{
+  width: 28rpx;
+  height: 28rpx;
+  float: left;
+  margin: 6rpx 15rpx 0 0;
+  line-height: 28rpx;
+}
+.zl-l-box view{
+  width: 100%;
+  height: 100%;
+  border: #959595 solid 1px;
+  border-radius: 50%;
+}
+/* 检测照片上传 */
+.zb-scBox{
+  width: 640rpx;
+  height: 175rpx;
+  box-shadow: 0 0 50rpx #f3f3f3;
+  margin-top: 30rpx;
+  padding: 26rpx 0 0 26rpx;
+}
+.zb-sb-bo{
+  width: 140rpx;
+  height: 140rpx;
+  border: dashed #929292 1px;
+  text-align: center;
+  color: #929292;
+  font-size: 22rpx;
+}
+.zb-sb-bo image{
+  width: 63rpx;
+  height: 51rpx;
+  margin-top: 30rpx;
+}
+/* 示例 */
+.sltp{
+  width: 150rpx;
+  height: 150rpx;
+  border: #f8f8f8 solid 1px;
+}
+
+.tjBtn{
+  width: 690rpx;
+  height: 90rpx;
+  border: #db8174 solid 1px;
+  border-radius: 5rpx;
+  line-height: 90rpx;
+  background: #d25b4a;
+  margin: 30rpx auto;
+  color: #fff;
+}

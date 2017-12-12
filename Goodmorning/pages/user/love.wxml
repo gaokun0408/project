@@ -1,0 +1,32 @@
+<!--pages/user/love.wxml-->
+<view class="lovebox">
+  <view class="sub_moneyicon">
+    <image src='../../images/lovesub-money.png'></image>
+  </view>
+  <view class="sub_tit1">余额（元）</view>
+  <view class="money">{{money}}元</view>
+</view>
+
+<view class="user_warp">
+  <view bindtap="toaddress" class="warp_sub">
+    <image src='../../images/lovesub-icon1.png'></image>
+    <view class="sub_tit">转账</view>
+    <image class='sub_arrow' src='../../images/arrow.png'></image>
+  </view>
+
+  <view bindtap="myQuan" class="warp_sub">
+    <image src='../../images/lovesub-icon2.png'></image>
+    <view class="sub_tit">转账记录</view>
+    <image class='sub_arrow' src='../../images/arrow.png'></image>
+  </view>
+
+  <view bindtap="onHistory" class="warp_sub">
+    <image src='../../images/lovesub-icon3.png'></image>
+    <view class="sub_tit">补贴明细</view>
+    <image class='sub_arrow' src='../../images/arrow.png'></image>
+  </view>
+</view>
+<view class='sub_identity'>
+  <view class='myidentity'>我的身份：{{identity}}</view>
+  <view class='mysub'>我的补贴={{mysub}}+{{mysub}}+{{mysub}}</view>
+</view>

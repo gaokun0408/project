@@ -1,0 +1,50 @@
+/* pages/i/Insurance/Insurance.wxss */
+.clearfix:after{ 
+  content:"";
+  display:block; 
+  height:0; clear:both; 
+  visibility:hidden;
+  }
+.list{
+  width: 690rpx;
+  height: auto;
+  color: #333333;
+  margin: 80rpx auto 30rpx;
+  overflow: hidden;
+}
+.saveinfo view{
+  width: 200rpx;
+  height: auto;
+  float: left;
+}
+.saveinfo text{
+  width: 350rpx;
+  height: auto;
+  color: #929292;
+  text-align: right;
+  float: right;
+}
+.l-imgBox{
+  margin: 40rpx 0 20rpx 0;
+  position: relative;
+}
+.l-img{
+  width: 690rpx;
+  height: 317rpx;
+  background: #bbb;
+}
+.l-spr{
+  width: 150rpx;
+  height: 112rpx;
+  position: absolute;
+  top: 0;
+  right: 25rpx;
+}
+
+.save_price{
+  display: block;
+  width: 100%;
+  height: auto;
+  color: #e64340;
+  text-align: right;
+}

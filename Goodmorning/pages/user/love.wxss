@@ -1,0 +1,78 @@
+/* pages/user/love.wxss */
+page{
+  font-size: 12px;
+  background: #fff;
+}
+.user_warp {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-top: solid #f8f8f8 4px;
+  border-bottom: solid #f8f8f8 4px;
+}
+
+.warp_sub {
+  width: 100%;
+  height: 95rpx;
+  line-height: 95rpx;
+  border-bottom: solid #f8f8f8 1px;
+  display: flex;
+  flex-wrap:nowrap;
+  align-items: center;
+
+}
+.warp_sub image{
+  width: 32rpx;
+  height: 32rpx;
+  margin: 0 40rpx;
+  float: left;
+}
+
+.sub_tit{
+  width: 65px;
+  height: auto;
+  float: left;
+}
+
+.sub_tit1{
+  font-size: 14px;
+  margin-top: 8rpx;
+  text-indent: 10rpx;
+}
+.warp_sub .sub_arrow{
+  width: 20rpx;
+  height: 32rpx;
+  float: right;
+  margin-left: 55%;
+}
+
+.lovebox{
+   width:100%;
+   height: auto;
+   background: #fff;
+   border-top: solid #eeeeee 4px;
+   text-align: center;
+   padding: 40rpx 0 20rpx 0; 
+}
+.sub_moneyicon image{
+  width: 107rpx;
+  height: 106rpx;
+
+} 
+.money{
+  display: block;
+  width:100%;
+  font-size: 26px;
+  color: #e84540;
+}
+.sub_identity{
+  text-align: center;
+  margin-top:60%; 
+}
+.myidentity{
+  color: #5b6a91;
+  margin-bottom: 10rpx;
+}
+.mysub{
+  color: #929292;
+}

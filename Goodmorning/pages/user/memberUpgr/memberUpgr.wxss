@@ -1,0 +1,129 @@
+/* pages/i/memberUpgr/memberUpgr.wxss */
+page{
+  background-color: #fff;
+  font-size: 14px;
+}
+.line{
+  background-color: #f7f7f7;
+  height: 14rpx;
+}
+.hysf{
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-left: 40rpx;
+  /* padding: 24rpx 0 0 40rpx; */
+}
+.hysf text{
+  color: #e64340;
+}
+.sqBox{
+  overflow: hidden;
+  height: 80rpx;
+  /* margin-top: 200rpx; */
+  text-align: center;
+  line-height: 80rpx;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.sqcw{
+  float: left;
+  margin-left: 40rpx;
+}
+.sqBox text{
+  color: #e64340;
+}
+.sb-qlyw{
+  float: right;
+  margin-right: 14rpx;
+  color: #e64340;
+  /* text-decoration: underline; */
+}
+
+.jt{
+  float: right;
+  width: 17rpx;height: 27rpx;
+  color: #e64340;
+  margin-top: 26rpx;margin-right: 40rpx;
+  /* text-decoration: underline; */
+}
+
+.zjztBox{
+  width: 100%;height: 164rpx;
+  margin: 36rpx auto 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* .numbox{
+    width: 100%;height: 164rpx;
+  margin: 80rpx auto 0;
+  text-align: center;
+  overflow: hidden;
+} */
+ .zb-jd{
+ display: block;
+  width: 664rpx;
+  height: 30rpx;
+  border-radius: 15rpx;
+  border: #bbb solid 1px;
+  background: #e64340;
+  margin: 30rpx auto 50rpx;
+  position: relative;
+  overflow: hidden;
+  /* padding-top: 30rpx; */
+} 
+.zb-jd text{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  right: 0;
+  line-height: 30rpx;
+  background-color: #f6e079;
+  border:none;
+  display: block;
+}
+.zb-jd view{
+  height: 100%;
+  background: #259b24;
+}
+
+.sqBtn{
+  margin: 400rpx 0 0 260rpx;
+  overflow: hidden;
+}
+.sqBtn view{
+  width: 200rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border: #9e9e9e solid 1px;
+  border-radius: 10rpx;
+  color: #9e9e9e;
+  float: left;
+}
+.sqBtn text{
+  color: #259b24;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.mannum{
+  float: left;
+  margin-left: 40rpx;
+}
+
+.num{
+  margin-right: 40rpx;
+  float: right;
+  color: #e64340;
+}
+
+.num1{
+ color: #929292;
+} 
+
+.numbox{
+  width:100%;height: 34rpx;
+  margin-bottom: 36rpx;
+}

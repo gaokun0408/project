@@ -1,0 +1,99 @@
+/* pages/i/greenChannel/greenChannel.wxss */
+.title{
+  height: 40rpx;
+  text-align: center;
+  margin: 50rpx auto;
+}
+
+.sqyyBox{
+  width: 640rpx;
+  margin: 10rpx auto 0;
+}
+.sqyyBox textarea{
+  width: 96%;
+  height: 260rpx;
+  border: #bbb solid 1px;
+  margin: 10rpx 0 50rpx;
+  text-align: justify;
+  padding: 0 10rpx;
+}
+.sb-ts{
+  text-align: right;
+  color: #e64340;
+}
+.s2b-ts{
+  overflow: hidden;
+  color: #e64340;
+}
+.s2b-ts view{
+  float: right;
+  width: 20rpx;
+  height: 20rpx;
+  border: #e64340 solid 1px;
+  margin: 10rpx 10rpx 0 0;
+}
+.s2b-ts text{
+  float: right;
+}
+
+.gmBox{
+  height: 140rpx;
+  border-top: #bbb solid 1px;
+  margin-top: 25rpx;
+  overflow: hidden;
+}
+.gmBox image{
+  width: 100rpx;
+  height: 80rpx;
+  float: left;
+  margin: 30rpx 0 0 40rpx;
+  background: red;
+}
+.gb-yyk{
+  margin: 26rpx 0 0 20rpx;
+  float: left;
+}
+.gb-y-zt{
+  color: #e64845;
+  font-size: 36rpx;
+}
+.gmslBox{
+  float: right;
+  width: 160rpx;
+  margin: 60rpx 30rpx 0 0;
+}
+.gb-left{
+  float: left;
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  background: #444444;
+  line-height: 25rpx;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-top: 8rpx;
+}
+.gb-right{
+  float: right;
+}
+.gb-con{
+  width: 94rpx;
+  float: left;
+  text-align: center;
+}
+.jsBox{
+  height: 80rpx;
+  line-height: 80rpx;
+  border: #bbb solid 1px;
+  padding-left: 10rpx;
+}
+.jsBox view{
+  width: 160rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  float: right;
+  border-left: #bbb solid 1px;
+}

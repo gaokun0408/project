@@ -1,0 +1,81 @@
+<!--pages/user/memberCore/openMember.wxml-->
+<!--个人信息框-->
+<view class="line"></view>
+ <view class="userbox" bindtap='goInfo'>
+  <image class="userimg" src='{{userimg}}'></image>
+  <view class="userinfo">
+    <view class="name">{{name}}</view>
+    <view class="yh">购买后会员有效期至{{huiyuan}}</view>
+  </view>
+  <image class="enterimg" src='{{enterimg}}'></image>
+</view> 
+
+
+<!-- 灰色分隔线 -->
+<view class="line"></view>
+
+
+<!-- 开通公益会员 -->
+<view class="hybox" bindtap='goInfo'>
+  <view class="openhy">开通公益会员</view>
+  <view class="yearbox">
+    <view class="year">3年</view>
+    <view class="day">￥365</view>
+    <view class="time">折合0.33元/天</view>
+  </view>
+</view>
+
+<view class="line"></view>
+<view class="stylebox1" bindtap='goInfo'>
+  <view class="style1">选择支付方式</view>
+  <image class="jtimg" src='{{jtimg}}'></image>
+</view>
+
+<view class="wxbox">
+  <image class="wx" src='{{wximg}}'></image>
+  <text class="style">微信支付</text>
+  <image class="jtimg1" src='{{qimg}}'></image>
+</view>
+
+<view class="stylebox" bindtap='goInfo'>
+  <view class="style">包含</view>
+</view>
+
+<view class="wxbox1">
+  <text class="style">3年公益会员服务</text>
+  <view  class="allbox">
+      <image src="../../../images/jian.png" bindtap='jian'></image>
+      <text>{{allnum}}</text>
+      <image src="../../../images/jia.png" bindtap='add'></image>
+  </view>
+</view>
+<view class="line"></view>
+
+
+<!-- 复选框 -->
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{checkList}}">
+    <checkbox class="check" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+
+
+<view class="jsbox">
+  <view class="left">
+    <text>总计：￥{{money}}</text>
+  </view>
+  <view class="right">
+    <text>确认支付</text>
+  </view>
+</view>
+
+<!-- <view class="wxbox">
+  <image class="wx" src='{{userimg}}'></image>
+  <view class="style">微信支付</view>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}">
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </radio-group>
+</view> -->
+

@@ -1,0 +1,99 @@
+<!--pages/user/user.wxml-->
+
+<!-- 灰色分隔线 -->
+<view class="line"></view>
+
+<!--个人信息框-->
+<view class="userbox">
+  <image class="userimg" src='{{userimg}}'></image>
+  <view class="userinfo">
+    <view class="name">{{name}}</view>
+    <view class="yh">{{huiyuan}}</view>
+    <!-- <view  class="shegong">{{shegong}}</view>
+    <text class="sj" bindtap='goUpgrade'>升级</text> -->
+  </view>
+  <image class="enterimg" src='{{enterimg}}' bindtap='goInfo'></image>
+</view>
+<view class="line"></view>
+
+
+<!-- 爱补贴 -->
+<view class="lovebox">
+  <image class="axlogo" src="{{axlogo}}"></image>
+  <view class="ynum" bindtap="toLove">{{num}}元</view>
+</view>
+<view class="line"></view>
+
+<view bindtap="goUpgrade" class="list">
+  <image class="user1" src="../../images/user1.png"></image>
+  <view class="txt">{{hyzx}}</view>
+  <image class="arrowimg" src='{{enterimg}}'></image>
+</view>
+
+<view bindtap="toMemCore" class="list">
+  <image class="user1" src="../../images/user2.png"></image>
+  <view class="txt">{{sqcw}}</view>
+  <image class="arrowimg" src='{{enterimg}}'></image>
+</view>
+
+<view bindtap="goMessage" class="list">
+  <image class="user1" src="../../images/user3.png"></image>
+  <view class="txt">{{xxtz}}</view>
+  <image class="arrowimg" src='{{enterimg}}'></image>
+</view>
+
+<view bindtap="goQues" class="list">
+  <image class="user1" src="../../images/user4.png"></image>
+  <view class="txt">{{cjwt}}</view>
+  <image class="arrowimg" src='{{enterimg}}'></image>
+</view>
+<view class="line"></view>
+
+
+<view class="phone">客服电话:{{phone}}</view>
+<!-- <view class="user_warp">
+  <view bindtap="toMemCore" class="warp_sub">
+    <image src="../images/user1.png"></image>
+    <view class="sub_tit">{{hyzx}}</view>
+    <image src="{{enterimg}}" class="sub_icon sub_right arrow"></image>
+  </view>
+
+  <view bindtap="share" class="warp_sub">
+  <image src="../images/user1.png"></image>
+    <view class="sub_tit">{{sqcw}}</view>
+    <image src="{{enterimg}}" class="sub_icon sub_right arrow"></image>
+  </view>
+
+  <view bindtap="onHistory" class="warp_sub">
+  <image src="../images/use3.png"></image>
+    <view class="sub_tit">{{xxtz}}</view>
+    <image src="{{enterimg}}" class="sub_icon sub_right arrow"></image>
+  </view>
+
+  <view bindtap="goDistri" class="warp_sub">
+  <image src="../images/user4.png"></image>
+    <view class="sub_tit">{{cjwt}}</view>
+    <image src="{{enterimg}}" class="sub_icon sub_right arrow"></image>
+  </view>
+
+  
+</view> -->
+
+<!-- 弹窗 -->
+<view class='tanc' wx:if='{{tancpd}}' style='height:{{second_height}}px'>
+  <view class='tc-box'>
+    <view class='tc-b-title'>
+      <text>提醒</text>
+    </view>
+
+    <view class='tipbox'>
+      <image src='../../images/icon/cry.png'></image>
+      <view class="sg">您还不是会员，无法成为社工</view>
+      <text class="cwsg">成为社工,每推广一名会员获得一百元推广拥金。</text>
+    </view>
+
+    <view>
+      <button class='cancelbtn' bindtap='cancel'>取消</button>
+    </view>
+  </view>
+</view>

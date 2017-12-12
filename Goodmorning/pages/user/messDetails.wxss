@@ -1,0 +1,42 @@
+/* pages/user/messDetails.wxss */
+page{
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.messbox {
+  width: 94%;
+  height: 210rpx;
+ margin:0 auto;
+ margin-bottom: 20rpx;
+}
+
+
+.titbox{
+  width: 100%;
+  height: 84rpx;
+  line-height: 84rpx;
+  border-bottom: 1px solid #efeff4;
+  margin-bottom: 20rpx;
+}
+
+.name{
+    display: inline-block;
+}
+
+.date{
+   display: inline-block;
+   margin-left: 44rpx;
+   margin-right: 18rpx;
+}
+
+.mess{
+  width:90%;height: 130rpx;
+  color: #020002;
+  margin:0 auto; 
+}
+
+.line{
+  width:100%;height: 14rpx;
+  background-color: #efeff4;
+}

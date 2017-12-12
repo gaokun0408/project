@@ -1,0 +1,35 @@
+<!--pages/i/upgrade/upgrade.wxml-->
+<!-- 灰色分隔线 -->
+<view class="line"></view>
+
+<!--个人信息框-->
+<view class="userbox">
+  <image class="userimg" src='{{userimg}}'></image>
+  <view class="userinfo">
+    <view class="name">{{name}}</view>
+    <view class="yh">{{kh}}</view>
+    <view class='w-t-box2'>
+      <text>有效期：{{sj}}</text>
+      <text class='t-b2-xf'>续费</text>
+    </view>
+    <!-- <view  class="shegong">{{shegong}}</view>
+    <text class="sj" bindtap='goUpgrade'>升级</text> -->
+  </view>
+  <image class="enterimg" src='{{enterimg}}' bindtap='goInfo'></image>
+</view>
+<view class="line"></view>
+
+<view  class="hybox">
+  <image  class="star" src="../../../images/star.png"></image>
+   <view class="hy">{{hy}}</view>
+   <view class="work">{{work}}</view>
+    <image class="jt"  src="../../../images/jt.png"></image>
+</view>
+<view class="line"></view>
+<view class='wrap2'>
+  <view>公益会员权益</view>
+  <view class='w2-list' wx:for='{{list}}' wx:key='id' bindtap='hyqyTap' data-i='{{index}}'>
+    <image src='{{item.src}}'></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>

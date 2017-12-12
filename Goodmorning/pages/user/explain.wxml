@@ -1,0 +1,2 @@
+<!--pages/user/explain.wxml-->
+<view class='con'>{{con}}</view>

@@ -1,0 +1,32 @@
+<!--pages/i/apply/apply.wxml-->
+<view class='line'></view>
+<view class='list' wx:for='{{list}}' wx:key='id'>
+  <image class="img" src="{{item.img}}"></image>
+  <text>{{item.name}}</text>
+  <text class='l-right'>{{item.value}}</text>
+</view>
+
+<view class='sqyyBox'>
+  <textarea placeholder='请输入申请原因'></textarea>
+</view>
+
+<view class='list1'>
+    <image class="img" src="../../../images/work.png"></image>
+    <text>社工的权益与义务</text>
+  </view>
+<view class='sqyyBox'>
+  
+  <textarea placeholder='这里写社工的收益、权益和义务'></textarea>
+
+
+  <view class='s2b-ts'>
+    <text>以阅读同意组委会章程</text>
+    <view></view>
+  </view>
+  <view class='s2b-ts'>
+    <text>以阅读同意工服务协议</text>
+    <view></view>
+  </view>
+</view>
+
+<button class='tjsq' bindtap='toUser'>提交申请</button>

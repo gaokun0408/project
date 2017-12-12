@@ -1,0 +1,10 @@
+<view class='tsBox'>
+  <image class="img" src="../../../images/cry.png"></image>
+  <!-- <text>您还不是会员，无法享受会员权益</text> -->
+</view>
+
+<view class='hyBox'>
+   <text bindtap='ljTap'>了解会员权益 > </text> 
+  <button class='yBtn' bindtap='yBtnTap'>持会员卡激活</button>
+  <button class='yBtn nBtn' bindtap='goOpen'>注册会员入会</button>
+</view>

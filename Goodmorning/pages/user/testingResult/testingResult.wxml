@@ -1,0 +1,23 @@
+<!--pages/user/testingResult/testingResult.wxml-->
+<view class='wrap'>
+  <view class='w-list' wx:for='{{list}}' wx:key='id'>
+    <image src='{{item.src}}'></image>
+    <text>{{item.value}}</text>
+  </view>
+</view>
+<!-- 检测结果 -->
+<view class='jcffBox'>
+  <view class='jb-ttle'>
+    <image src='../../../images/testingResult-4.jpg'></image>
+    <text>检测方法</text>
+  </view>
+  <view class='jb-con'>{{jbCon}}</view>
+</view>
+<!-- 检测照片 -->
+<view class='jcffBox'>
+  <view class='jb-ttle'>
+    <image src='../../../images/testingResult-5.jpg'></image>
+    <text>检测照片</text>
+  </view>
+  <view class='jb-con2'><image src='{{jbCon2Img}}'></image></view>
+</view>

@@ -1,0 +1,74 @@
+/* pages/user/info.wxss */
+
+page {
+  font-size: 14px;
+  background-color: #f8f8f8;
+}
+
+.infobox {
+  width: 100%;
+  height: 84rpx;
+}
+
+.litinfo:first-child {
+  margin-top: 20rpx;
+}
+
+.litinfo {
+  width: 100%;
+  height: 84rpx;
+  margin: 0 auto;
+  border-bottom: 1px solid #bbb;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.info {
+  float: left;
+  font-size: 14px;
+  line-height: 84rpx;
+}
+
+.infoput {
+  float: left;
+  width: 50%;
+  height: 40rpx;
+  margin-top: 20rpx;
+}
+
+.status {
+  float: right;
+  line-height: 84rpx;
+  margin-right: 60rpx;
+}
+
+.enter {
+  display: inline-block;
+  float: right;
+  width: 14rpx;
+  height: 28rpx;
+  margin-top: 28rpx;
+  margin-right: -106rpx;
+}
+
+.infonbtn {
+  width: 684rpx;
+  height: 86rpx;
+  text-align: center;
+  line-height: 86rpx;
+  margin:52% auto;
+  font-size: 12px;
+  background-color: #d25b4a;
+  color: #fff;
+  letter-spacing: 2rpx;
+  border-radius: 20rpx;
+}
+
+.img {
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 24rpx;
+  margin-top: 22rpx;
+}

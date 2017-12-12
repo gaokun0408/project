@@ -1,0 +1,257 @@
+
+/* pages/user/user.wxss */
+
+ page {
+  /* background-color: #eeeeee;  */
+  background-color: #fff; 
+  font-size: 14px;
+} 
+
+.line{
+  width: 100%;height:10rpx;
+  background-color:#efeff4;
+}
+/* 个人信息框 */
+.userbox{
+  width: 100%;
+  height: 176rpx;
+  overflow: hidden;
+  border-top:1px solid #bbbbbb; 
+  border-bottom:1px solid #bbbbbb; 
+  background-color: #fff;
+}
+
+.userimg{
+  width: 130rpx;
+  height: 128rpx;
+  border-radius: 10rpx;
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 22rpx;
+  margin-right: 24rpx;
+}
+
+.userinfo {
+  float: left;
+  font-size: 14px;
+  color: #100f10;
+}
+
+.name{
+  margin-top: 36rpx;
+  margin-bottom: 20rpx;
+}
+
+.enterimg{
+  width: 24rpx;
+  height: 34rpx;
+  float: right;
+  margin-top: 62rpx;
+  margin-right: 48rpx;
+}
+
+
+/*内容*/
+.user_warp {
+  width: 100%;
+  height: 80rpx;
+  background-color: #fff;
+  border-top: solid #dedede 1px;
+  margin-top: 10px;
+}
+
+.warp_sub {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: solid #dedede 1px;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub_icon {
+    width:20px;height:20px;
+    flex-shrink: 0;
+    padding-left:5%;
+}
+.sub_right {
+    margin-right: 36rpx;
+}
+.sub_tit {
+    flex-grow:1;
+   color:333;
+   font-size:14px;
+   padding-left: 15px;
+}
+.sub_icon image {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.arrow{
+  width:16rpx;
+  height: 24rpx;
+}
+
+.lovebox{
+  width:100%;
+  height: 146rpx;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+
+.sub_tit1 {
+   float: left;
+   color:333;
+   font-size:14px;
+   padding-left: 15px;
+   padding-top: 5rpx;
+}
+
+.lovebox image{
+  float: left;
+  width:120rpx;
+  height: 104rpx;
+  margin-top: 20rpx;
+  margin-left: 240rpx;
+  margin-right: 24rpx;
+}
+
+.ynum{
+  display: inline-block;
+  float: right;
+  color:#e84541;
+  line-height: 120rpx;
+  margin-right: 270rpx;
+  font-size: 14px;
+}
+.phone{
+   color:#bbbbbb;
+   margin-left:200rpx;
+   /* margin-top:374rpx;  */
+   margin-top:300rpx;
+  font-size: 16px;
+}
+
+.list{
+  width:100%;
+  height: 78rpx;
+  overflow: hidden;
+  background-color: #fff;
+   border-bottom: 1px solid #e6e6e6; 
+}
+
+.user1{
+  width:36rpx;
+  height: 36rpx;
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 36rpx;
+  margin-right: 46rpx;
+}
+
+.txt{
+  display: inline-block;
+  width:390rpx;
+  height: 78rpx;
+ line-height: 78rpx;
+}
+
+.arrowimg{
+  display: inline-block;
+  float: right;
+   width: 24rpx;
+  height: 34rpx;
+   margin-top: 20rpx;
+  margin-right: 48rpx;
+}
+/* 弹窗 */
+.tanc{
+width: 100%;
+background: rgba(0, 0, 0, 0.4);
+z-index: 99;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.tc-box{
+width: 580rpx;
+height:560rpx;
+background: #fff;
+margin:40% auto;
+}
+
+.tc-b-title{
+height: 100rpx;
+line-height: 100rpx;
+text-align: center;
+border-bottom: #bbbbbb solid 2rpx;
+position: relative;
+font-size: 16px;
+}
+
+.tipbox image{
+  width:102rpx;height:96rpx;
+  margin-top: 40rpx;
+  margin-left:230rpx;
+  margin-bottom:24rpx;
+}
+
+.tipbox view{
+  font-size: 14px;
+  color:#101010;
+}
+
+.tipbox text{
+  display: block;
+  width: 90%;height:60rpx;
+  font-size: 14px;
+  color:#898989;
+}
+
+.cancelbtn{
+  width:200rpx;
+  height:74rpx;
+  border:1px solid #bbbbbb;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 74rpx;
+  margin-top: 10%;
+}
+.sg{
+  margin-left: 90rpx;
+  margin-bottom: 30rpx;
+  letter-spacing: 1px;
+}
+
+.cwsg{
+  margin-left: 50rpx;
+  letter-spacing: 1px;
+}
+
+.shegong{
+    width:60rpx;
+  height:28rpx;
+  background-color: #e7747c;
+  border-radius: 10px;
+  text-align: center;
+  line-height:28rpx;
+  color:#fff;
+  font-size: 12px;
+}
+
+.sj{
+  float: right;
+  display: block;
+  color:#e51c22;
+}
+
+
+
+
+

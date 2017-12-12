@@ -1,0 +1,49 @@
+/* pages/user/testingResult/testingResult.wxss */
+.wrap{
+  margin: 20rpx 0 15rpx;
+}
+.w-list{
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  margin-bottom: 2rpx;
+}
+.w-list image{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  margin: 30rpx 28rpx 0 34rpx;
+}
+/* 检测结果 */
+.jcffBox{
+  background: #fff;
+  padding: 42rpx 0 46rpx 32rpx;
+  margin-bottom: 20rpx;
+}
+.jb-ttle{
+  margin-bottom: 35rpx;
+}
+.jb-ttle image{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  margin-right: 26rpx;
+}
+.jb-con{
+  width: 638rpx;
+  height: 257rpx;
+  padding: 24rpx 26rpx;
+  box-shadow: 0 0 50rpx #f3f3f3;
+  overflow: auto;
+}
+/* 检测照片 */
+.jb-con2{
+  width: 690rpx;
+  height: 305rpx;
+  box-shadow: 0 0 50rpx #f3f3f3;
+}
+.jb-con2 image{
+  width: 630rpx;
+  height: 300rpx;
+  margin: 10rpx 0 0 30rpx;
+}

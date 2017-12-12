@@ -1,0 +1,49 @@
+/* pages/i/activaMember/activaMember.wxss */
+.wrap{
+  width: 500rpx;
+  height: 480rpx;
+  margin: 230rpx auto;
+  border: #bbb solid 1px;
+}
+.w-title{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: #bbb solid 1px;
+  text-align: center;
+}
+.w-box input{
+  width: 400rpx;
+  height: 50rpx;
+  margin: 40rpx auto 0;
+  border: #bbb solid 1px;
+  padding: 10rpx;
+}
+.w-box button{
+  width: 160rpx;
+  height: 60rpx;
+  background: #fff;
+  border: #bbb solid 1px;
+  line-height: 60rpx;
+  margin-top: 40rpx;
+}
+.w-box button::after{
+  content: none;
+}
+
+.jhBox{
+  margin-top: 180rpx;
+}
+.jhBox view{
+  margin-bottom: 60rpx;
+  text-align: center;
+}
+.jhBox button{
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: #bbb solid 1px;
+  background: #fff;
+}
+.jhBox button::after{
+  content: none;
+}

@@ -1,0 +1,18 @@
+<!-- 按钮组 -->
+<view class='btns'>
+  <button  class="start" bindtap='kstjTap'>开始体检</button>
+  <button  class="query" bindtap='jctjTap'>查询检测结果</button>
+</view>
+  
+<image class="img" src="../../images/jklogo.png"></image>
+<view class='mytj'>{{mytj}}</view>
+
+<view class='tjBox'>
+  <image class="warn" src="../../images/wran.png"></image><text class='jytj'>{{jytj}}</text>
+</view>
+
+<view class='imgbox'>
+  <image src="../../images/yy1.png"></image>
+  <image src="../../images/yy2.png"></image>
+  <image src="../../images/yy3.png"></image>
+</view>

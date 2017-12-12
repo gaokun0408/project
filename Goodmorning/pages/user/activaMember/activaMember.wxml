@@ -1,0 +1,15 @@
+<!--pages/i/activaMember/activaMember.wxml-->
+<view class='wrap' wx:if='{{jhqh}}'>
+  <view class='w-title'>激活会员卡</view>
+  <view class='w-box'>
+    <input placeholder='请输入会员卡号'></input>
+    <input placeholder='请输入会员密码'></input>
+    <button bindtap='jhTap'>激活</button>
+  </view>
+</view>
+
+<view class='jhBox' wx:if='{{!jhqh}}'>
+  <view>会员激活成功</view>
+  <view>请完善会员信息。享受全部会员权益</view>
+  <button bindtap='wsTap'>去完善</button>
+</view>

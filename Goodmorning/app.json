@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/user/info",
+    "pages/user/love",
+    "pages/user/explain",
+    "pages/user/memberCore/memberCore",
+    "pages/user/memberPower/memberPower",
+    "pages/user/activaMember/activaMember",
+    "pages/user/activaComplete/activaComplete",
+    "pages/user/memberCore/openMember",
+    "pages/user/Insurance/Insurance",
+    "pages/user/apply/apply",
+    "pages/user/upgrade/upgrade",
+    "pages/user/healthyCard/healthyCard",
+    "pages/user/card",
+    "pages/user/myCode/myCode",
+    "pages/user/myTM/myTM",
+    "pages/user/allMembers/allMembers",
+    "pages/user/memberUpgr/memberUpgr",
+    "pages/user/directorAgreem/directorAgreem",
+    "pages/user/greenChannel/greenChannel",
+    "pages/healthExam/healthExam",
+    "pages/healthExam/startCheck/startCheck",
+    "pages/healthExam/startRecord/startRecord",
+    "pages/user/myPolicy/myPolicy",
+    "pages/user/testingResult/testingResult",
+    "pages/user/policyDetails/policyDetails",
+    "pages/user/details",
+    "pages/user/message",
+    "pages/user/messDetails",
+    "pages/user/deleteMess",
+    "pages/user/btDetails",
+    "pages/user/question",
+    "pages/user/addCard",
+    "pages/user/transfer",
+    "pages/user/zzDetails"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d25b4a",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#e74240",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/healthExam/healthExam",
+        "text": "健康体检",
+        "iconPath": "./images/tab1.png",
+        "selectedIconPath": "./images/home1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/rtab3.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+<!--pages/user/card.wxml-->
+<view class="headbox">
+  <text class="card">医养通健康卡</text>
+  <text class="all" bindtap='change'>{{all}}</text>
+  <view class="litlist"  wx:if='{{isshow}}'>
+    <view wx:for='{{list}}' wx:key='id' bindtap='goList' data-index='{{index}}' data-txt='{{item.txt}}' data-state='{{item.state}}'>
+      <text style="color:{{index==litindex?'red':''}}">{{item.txt}}</text>
+    </view>
+  </view>
+</view>
+
+<view class='lithidden'>
+  <view class="litbox" wx:for='{{jkList}}' wx:key='id' data-state='{{item.state}}' wx:if='{{state==item.state||state==3}}' style="background:{{item.state==1?'#f9ebea':''}}">
+    <view class='clearfix'>
+      <view class='buyper clearfix'>
+        <text class='name' wx:if='{{item.name}}'>{{item.name}}</text>
+        <image class="img" src="{{item.img}}" wx:if='{{!item.name}}' bindtap='goImg'></image>
+      </view>
+
+      <text class="num">NO.{{item.num}}</text>
+      <view class='clearfix'>
+        <text class="activation_time" wx:if='{{item.activation_time}}'>激活时间:{{item.activation_time}}</text>
+        <text class="buy_time">购买时间:{{item.buy_time}}</text>
+      </view>
+      <image class='activation_icon' src='../../images/activation_icon.png' wx:if='{{item.activation_time}}'></image>
+    </view>
+  </view>
+</view>
+
+
+<view class='buybox'>
+  <image class='buy_pic' src='../../images/card_pay_pic.png'></image>
+  <view class='buy_info'>
+    <view class='buy_name'>医养通健康卡</view>
+    <view class='buy_money'>¥{{price}}元/张</view>    
+  </view>
+  <!-- <view class='pay_money'>
+    <view></view>
+  </view> -->
+  <view class="buy_num">  
+    <!-- 减号 -->  
+    <text class="{{minusStatus}}" bindtap="bindMinus">-</text>  
+    <!-- 数值 -->  
+    <input type="number" bindchange="bindManual" value="{{num}}" />  
+    <!-- 加号 -->  
+    <text class="normal" bindtap="bindPlus">+</text>  
+  </view> 
+</view>
+<view class='paybox'>
+  <text class='paytotal'>总计 : </text>
+   <input class='paynumber' type="number" bindchange="paynumber" value="¥{{price*num}}" /> 
+  <view class='paybtn' bindtap="paybtn">确认支付</view>
+</view>

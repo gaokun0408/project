@@ -1,0 +1,11 @@
+/* pages/i/memberPower/memberPower.wxss */
+.con{
+  width: 90%;
+  height: 1120rpx;
+  padding: 10rpx;
+  border: #bbb solid 1px;
+  margin: 30rpx auto;
+  overflow: auto;
+  text-align: justify;
+  color: #888888;
+}

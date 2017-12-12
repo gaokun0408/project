@@ -1,0 +1,14 @@
+<!--pages/user/deleteMess.wxml-->
+<view class="line"></view>
+<view class="messbox" wx:for='{{messList}}' wx:key='id' wx:if="{{show}}">
+  <image class="img" src="{{item.img}}"></image>
+  <text class="circlenum">{{item.num}}</text>
+  <view class="titbox">
+    <view class="litbox">
+      <text class="name" bindtap="goMess">{{item.name}}</text>
+      <text class='circle' bindtap='delete'></text>
+      <text class="date">{{item.date}}</text>
+    </view>
+    <view class="mess">{{item.message}}</view>
+  </view>
+</view>

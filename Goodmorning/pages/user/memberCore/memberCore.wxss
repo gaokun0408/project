@@ -1,0 +1,39 @@
+/* pages/i/memberCore/memberCore.wxss */
+page{
+  background-color: #fff;
+}
+.tsBox{
+  height: 160rpx;
+  margin-top: 300rpx;
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.tsBox image{
+  width: 314rpx;
+  height: 266rpx;
+  display: block;
+  /* margin-top: 176rpx; */
+  /* margin:0 auto; */
+  margin: 176rpx auto;
+}
+
+.hyBox{
+  margin-top: 450rpx;
+  text-align: center;
+}
+.hyBox text{
+  color: #e64340;
+}
+.yBtn{
+  width: 692rpx;
+  height: 90rpx;
+  border-radius: 10rpx;
+  line-height: 90rpx;
+  margin-top: 40rpx;
+  color: #fff;
+  background: #d25b4a;
+}
+.nBtn{
+  margin-top: 20rpx;
+}

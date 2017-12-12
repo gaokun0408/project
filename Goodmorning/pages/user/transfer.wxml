@@ -1,0 +1,22 @@
+<!--pages/user/transfer.wxml-->
+<view class='line'></view>
+
+<view class='w-box' wx:for='{{list}}' wx:key='id'>
+  <text>{{item.name}}</text>
+  <text>{{item.mess}}</text>
+</view>
+
+<view class='line'></view>
+
+<view class='w-box'>
+  <view class="zzje">转账金额</view>
+</view>
+
+<view  class='monbox'>
+  <text>￥</text>
+  <input>{{money}}</input>
+</view>
+
+<view class="tip">注:每天转账不能超过一次,每次不低于100人</view>
+
+<button class='sure' bindtap='goTransfer'>确定</button>

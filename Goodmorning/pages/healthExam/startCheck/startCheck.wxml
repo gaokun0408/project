@@ -1,0 +1,50 @@
+<!-- 检测方法 -->
+<view class='jcffBox'>
+  <view class='jb-ttle'>
+    <image src='../../../images/startCheck-1.jpg'></image>
+    <text>检测方法</text>
+  </view>
+  <textarea class='jb-con' placeholder='请输入内容' value='{{jcff}}'></textarea>
+</view>
+<!-- 选择自测结果 -->
+<view class='jcffBox'>
+  <view class='jb-ttle'>
+    <image src='../../../images/startCheck-2.jpg'></image>
+    <text>选择自测结果</text>
+  </view>
+  <view class='zl-con'>
+    <view class='zl-list' wx:for='{{zcjg}}' wx:key='id' bindtap='zcTap' data-in='{{index}}' data-na='{{item.name}}'>
+      <view class='zl-l-box'>
+          <icon wx:if='{{zcobj[index]}}' type='success' size='15' color='#ed7453'></icon>  
+          
+         <view wx:if='{{!zcobj[index]}}'></view>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>
+<!-- 检测照片上传 -->
+<view class='jcffBox'>
+  <view class='jb-ttle'>
+    <image src='../../../images/startCheck-3.jpg'></image>
+    <text>检测照片上传</text>
+  </view>
+  <view class='zb-scBox'>
+    <view class='zb-sb-bo' bindtap='tpscTap'>
+      <image src='../../../images/startCheck-5.jpg'></image>
+      <view>添加图片</view>
+    </view>
+  </view>
+</view>
+<!-- 示例 -->
+<view class='jcffBox'>
+  <view class='jb-ttle'>
+    <image src='../../../images/startCheck-4.jpg'></image>
+    <text>示例</text>
+  </view>
+  <view class='zb-scBox'>
+    <image class='sltp' wx:if='{{sltp}}' src='{{sltp}}'></image>
+  </view>
+</view>
+
+<button class='tjBtn'>提交检测结果</button>

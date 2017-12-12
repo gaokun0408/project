@@ -1,0 +1,55 @@
+/* pages/i/myPolicy/myPolicy.wxss */
+page{
+  background-color: #fff;
+}
+
+.list {
+  width: 668rpx;
+  height: 146rpx;
+  border: #dc8174 solid 1px;
+  border-radius: 10rpx;
+  margin: 30rpx auto 0;
+  position: relative;
+}
+
+.l-box {
+  z-index: 100;
+  float: right;
+}
+
+.l-box view {
+  margin: 18rpx 0 0 0rpx;
+}
+
+.l-box view:first-child{
+  width:126rpx;height: 40rpx;
+  margin: 18rpx 0 0 0rpx;
+}
+
+.l-box view:last-child{
+   width:554rpx;height: 40rpx;
+}
+
+.spr {
+  width: 120rpx;
+  height: 120rpx;
+  border: #bbb solid 1px;
+  border-radius: 50%;
+  float: right;
+  margin: 30rpx 10rpx 0 0;
+}
+.activation_icon{
+  width: 120rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 0;
+  right: 30rpx;
+}
+
+.img{
+  float: left;
+  width: 72rpx;
+  height: 80rpx;
+  margin-top: 26rpx;
+  margin-left: 18rpx;
+}

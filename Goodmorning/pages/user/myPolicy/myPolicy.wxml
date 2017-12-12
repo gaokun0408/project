@@ -1,0 +1,10 @@
+<!--pages/i/myPolicy/myPolicy.wxml-->
+ <view class='list' wx:for='{{list}}' wx:key='id' bindtap='bdTap'>
+  <image class="img" src="{{item.img}}"></image>
+  <view class='l-box' >
+    <view>{{item.bxmc}}</view>
+    <view>保险期限：{{item.bxqx}}</view>
+  </view>
+  <image class='activation_icon' src='../../../images/activation_icon.png' ></image>
+</view> 
+

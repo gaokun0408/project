@@ -1,0 +1,15 @@
+<!--pages/i/activaComplete/activaComplete.wxml-->
+<view class='khsjBox'>
+  <view class='hykh'>会员卡号：{{kh}}</view>
+  <view>开通日期：{{sj}}</view>
+</view>
+
+<view class='list' wx:for='{{list}}' wx:key='id'>
+  <view class='l-name'>{{item.name}}</view>
+  <input></input>
+  <text class='l-xg'>{{item.xg}}</text>
+</view>
+
+<view class='smTxt'>{{sm}}</view>
+
+<button class='bcBtn' bindtap='bcTap'>保存</button>

@@ -1,0 +1,30 @@
+<!--pages/i/myCode/myCode.wxml-->
+<view class='wrap'  style="background-image: url({{bgurl}});">
+  <view class='w-box1'>
+    <image src="{{img}}"></image>
+    <view>{{name}}</view>
+  </view>
+  <view class='w-box2'>
+    <!-- <view class='w-b2-title'>早安工程社工证</view> -->
+    <image src='{{src}}'></image>
+    <view style="margin:-20rpx;font-size:12px">扫码免费领取</view>
+    <view class='w-b2-tj'>价值20万元癌症保险</view>
+  </view>
+  <view class='w-box3'>
+    <view>{{txt1}}</view>
+    <view>{{txt2}}</view>
+    <view>{{txt3}}</view>
+    <view>NO.{{kh}}</view>
+  </view>
+</view>
+
+<view class='bcBtn'>
+  <view>保存社工证到手机</view>
+  <view>分享</view>
+</view>
+
+<view class='tgBox'>
+   <text style="color:#d25b4a;">*</text>
+  <view  style="display:inline-block;">推广须知：</view>
+  <view class='tb-txt'>{{tgxz}}</view>
+</view>

@@ -1,0 +1,48 @@
+<!--pages/i/memberUpgr/memberUpgr.wxml-->
+<view class="line"></view>
+<view class='hysf'>您当前会员身份为：
+  <text>{{sf}}</text>
+</view>
+<view class="line"></view>
+
+<view class='sqBox'>
+  <view class="sqcw">免费申请成为
+    <text>{{sq}}</text>
+  </view>
+  <image class='jt' src="../../../images/jt.png"></image>
+  <view class='sb-qlyw'>{{qlyw}}</view>
+</view>
+
+<view class='zjztBox'>
+  <!-- <text style='text-decoration:{{zjrs==500?"line-through":""}}'>直接推荐公益会员人数达到500人</text>  -->
+   <view  class='numbox'> 
+    <view class='mannum'>直接推荐公益会员人数达到500人</view>
+    <view class="num">{{zjrs==500?'已达成':'未达成'}}</view>
+   </view> 
+
+  <view class='zb-jd'>
+    <text>{{zjrs}}/500</text>
+    <view style="width:{{zjrs*100/500+'%'}}"></view>
+  </view>
+</view>
+
+
+<view class='zjztBox'>
+  <!-- <text style='text-decoration:{{tmrs==500?"line-through":""}}'>我的团队中有2人直接推荐人数达到500人</text>
+  <text>{{tmrs==500?'已达成':'未达成'}}</text> -->
+
+   <view  class='numbox'> 
+    <view class='mannum'>我的团队中有2人直接推荐人数达到500人</view>
+    <text class="num1">{{tmrs==500?'已达成':'未达成'}}</text>
+   </view> 
+   
+  <view class='zb-jd'>
+    <text>{{tmrs}}/500</text>
+    <view style="width:{{tmrs*100/500+'%'}}"></view>
+  </view>
+</view>
+
+<view class='sqBtn'>
+  <view bindtap='sqlsTap'>申请成为理事</view>
+  <text>晋升绿色通道></text>
+</view>

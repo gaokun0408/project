@@ -1,0 +1,137 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.6.4",
+	"appid": "wx5f3cb31ca4845658",
+	"projectname": "%E6%97%A9%E5%AE%89%E5%B7%A5%E7%A8%8B-3",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 9,
+			"list": [
+				{
+					"id": 0,
+					"name": "healthExam",
+					"pathName": "pages/healthExam/healthExam",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "details",
+					"pathName": "pages/user/messDetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "memberCore",
+					"pathName": "pages/user/memberCore/memberCore",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "upgrade",
+					"pathName": "pages/user/upgrade/upgrade",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "openMember",
+					"pathName": "pages/user/memberCore/openMember",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "policyDetails",
+					"pathName": "pages/user/policyDetails/policyDetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "upgrade",
+					"pathName": "pages/user/upgrade/upgrade",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "card",
+					"pathName": "pages/user/card",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myPolicy",
+					"pathName": "pages/user/myPolicy/myPolicy",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "memberUpgrad",
+					"pathName": "pages/user/memberUpgr/memberUpgr",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "deleMess",
+					"pathName": "pages/user/deleteMess",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "startCheck",
+					"pathName": "pages/healthExam/startCheck/startCheck",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "messDetails",
+					"pathName": "pages/user/messDetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "addcard",
+					"pathName": "pages/user/addCard",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "apply",
+					"pathName": "pages/user/apply/apply",
+					"query": ""
+				},
+				{
+					"id": 16,
+					"name": "zzDetails",
+					"pathName": "pages/user/zzDetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myTM",
+					"pathName": "pages/user/myTM/myTM",
+					"query": ""
+				}
+			]
+		}
+	}
+}

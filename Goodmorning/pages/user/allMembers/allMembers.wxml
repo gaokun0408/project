@@ -1,0 +1,19 @@
+<!--pages/i/allMembers/allMembers.wxml-->
+<view class='titbox'>
+  <view class='title' bindtap='a'>
+    <view class='t-ts'>姓名</view>
+    <view>身份</view>
+    <view>团队</view>
+  </view>
+</view>
+
+
+
+<view class='title con' wx:for='{{list}}' wx:key='id'>
+  <view>
+    <image class='c-img' src='{{item.img}}'></image>
+    <text class='c-name'>{{item.name}}</text>
+  </view>
+  <view>{{item.sf}}</view>
+  <view>{{item.rs}}</view>
+</view>

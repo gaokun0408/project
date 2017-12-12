@@ -1,0 +1,83 @@
+/* pages/user/deleteMess.wxss */
+
+page {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.messbox {
+  width: 100%;
+  height: 170rpx;
+  border-bottom: solid #bbb 1px;
+  overflow: hidden;
+  position: relative;
+}
+
+.titbox {
+  width: 530rpx;
+  height: 125rpx;
+  overflow: hidden;
+  margin-top: 16rpx;
+}
+
+.circlenum {
+  position: absolute;
+  top: 8rpx;
+  left: 130rpx;
+  display: inline-block;
+  width: 44rpx;
+  height: 44rpx;
+  background-color: #d25b4a;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 40rpx;
+  z-index: 100;
+}
+
+.name {
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+}
+
+.date {
+  display: inline-block;
+  float: right;
+  margin-right: 18rpx;
+}
+
+.mess {
+  width: 100%;
+  height: 100rpx;
+  color: #020002;
+}
+
+.img {
+  float: left;
+  width: 130rpx;
+  height: 125rpx;
+  margin: 20rpx 30rpx 30rpx 34rpx;
+}
+
+.line {
+  width: 100%;
+  height: 14rpx;
+  background-color: #efeff4;
+}
+
+.circle {
+  display: inline-block;
+  float: right;
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 50%;
+  border: 1px solid #d25b4a;
+}
+
+.litbox {
+  width: 500rpx;
+  height: 40rpx;
+  margin-bottom: 4rpx;
+  overflow: hidden;
+}

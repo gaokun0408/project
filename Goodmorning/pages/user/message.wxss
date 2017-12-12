@@ -1,0 +1,82 @@
+/* pages/user/message.wxss */
+page{
+  background-color: #fff;
+  font-size: 14px;
+}
+.messbox {
+  width:100%;
+  height: 170rpx;
+   border-bottom: solid #bbbbbb 1px; 
+   overflow: hidden;
+   position: relative;
+}
+
+ /* .messbox:first-child{
+  margin-top: 30rpx;
+  margin-bottom: 16rpx;
+}  */
+
+.titbox{
+  width: 530rpx;
+  height: 126rpx;
+  /* line-height: 108rpx; */
+  /* border-bottom: solid #bbbbbb 1px; */
+   overflow: hidden; 
+ margin-top: 16rpx;
+
+}
+
+.circle{
+  display: inline-block;
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 6rpx;
+}
+
+.circlenum{
+  position: absolute;
+  top: 8rpx;left: 130rpx;
+  display: inline-block;
+  width: 44rpx;
+  height: 44rpx;
+  background-color: #d25b4a;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;line-height: 40rpx;
+  z-index: 100;
+  
+}
+
+.name{
+    display: inline-block;
+  float: left;
+  font-size: 16px;
+}
+
+.date{
+   display: inline-block;
+   float: right;
+   margin-right: 18rpx;
+}
+
+.mess{
+  width:94%;height: 100rpx;
+  color: #020002;
+  margin:16rpx 18rpx 30rpx 20rpx;
+}
+
+.img{
+  float: left;
+  width:130rpx;height: 125rpx;
+   margin:20rpx 30rpx 30rpx 34rpx; 
+}
+
+.line{
+  width:100%;height: 14rpx;
+  background-color: #efeff4;
+}
